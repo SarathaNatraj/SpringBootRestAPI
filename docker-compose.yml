@@ -32,7 +32,7 @@ services:
     networks:
       - springboot-network
     links:
-      -mysql
+      - mysql
 
 networks:
   springboot-network:
